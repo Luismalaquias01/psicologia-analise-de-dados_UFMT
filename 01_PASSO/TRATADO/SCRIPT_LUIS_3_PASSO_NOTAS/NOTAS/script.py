@@ -59,7 +59,7 @@ print(f"Total de linhas removidas no notas1913_02_df: {linhas_removidas_1913_02}
 print(f"Total de linhas removidas no notas1914_01_df: {linhas_removidas_1914_01}")
 print(f"Total de linhas removidas no notas1914_02_df: {linhas_removidas_1914_02}")
 
-# Salvar os logs filtrados
+# Salvar as notas filtradas
 notas1913_01_filtrado.to_csv('notas1913_01_filtrado.csv', index=False)
 notas1913_02_filtrado.to_csv('notas1913_02_filtrado.csv', index=False)
 notas1914_01_filtrado.to_csv('notas1914_01_filtrado.csv', index=False)
